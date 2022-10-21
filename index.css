@@ -1,0 +1,221 @@
+body{
+    margin: 0px 0px;
+}
+.parent1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+
+.but1{
+    background-color: rgb(62, 62, 255);
+    border-radius: 3px;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 5px 5px 5px rgb(59, 59, 136);
+}
+.titre{
+    color: rgb(78, 77, 76);
+}
+.par{
+    
+    color: rgb(172, 170, 165);
+}
+.child1 img{
+    margin-right: 60px;
+    width: 500px;
+    height: 600px;
+    display: block;
+    float: right;
+    margin-top: 10px;
+}
+.child {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.parent2 h2{
+    text-align: center;
+}
+.parent2 p{
+    text-align: center;
+}
+.enfant img{
+    width: 50px;
+    height: 50px;
+}
+.enfant{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+
+}
+
+.child2{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.bout2 {
+    color: rgb(62, 62, 255);
+    border-radius: 6px;
+    background-color: white;
+   border: 2px solid rgb(99, 236, 236);
+    margin-left: 20px;
+    font-size: 14px;
+    box-shadow: 2px 2px 2px rgba(112, 112, 147, 0.964);
+
+
+}
+.parent3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.parent4{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(191, 186, 182, 0.341);
+    justify-content: space-between;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.child3 {
+    display: flex;
+    text-align: justify;
+    height: 300px;
+    width: 400px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.si2 img{
+    width: 600px;
+    height: 300px;
+}
+.si2 ,.si3{
+    margin-right: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+.child4 {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.si3 h2{
+    width: 400px;
+    text-align: justify;
+}
+.si3 p{
+    text-align: justify;
+}
+.si3 button{
+   text-align: justify;
+}
+.prr{
+    font-size: 22;
+    color: rgb(7, 160, 203);
+}
+
+.parent5{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(191, 186, 182, 0.341);
+    height: 150px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.child5 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 200px;
+    margin-top: 0px;
+}
+.parent6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.enfant6 img{
+    height: 500px;
+    width: 500px;
+}
+.child6{
+    margin-top: 0px;
+}
+.enfant6{
+    width: 600px;
+    margin-top: 20px;
+}
+.si6{
+    margin-top: 100px;
+}
+.parent7{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(191, 186, 182, 0.341);
+    margin-top: 30px;
+}
+.child7{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: auto;
+    text-align: center;
+}
+.inp{
+    width: 700px;
+    height: 15px;
+    margin: 5px 5px;
+    border-radius: 3px;
+    border: none;
+}
+.env{
+    width: 700px;
+    height: 20px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    background-color: rgb(4, 4, 192);
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+.mesg{
+    width: 700px;
+    height: 100px;
+    margin: 5px 5px;
+   text-align: initial;
+   border-radius: 3px;
+    border: none;
+
+}
+.site{
+    margin-top: 0px;
+    color: white;
+}
+.pied{
+    margin-top: 0px;
+    text-align: center;
+    background-color: rgb(48, 45, 45);
+    width: 100%;
+    height: 40px;
+}
